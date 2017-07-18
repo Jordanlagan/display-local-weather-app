@@ -12,15 +12,17 @@
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+
 	</head>
 	
 	<body>
 
-		<div class="header text-danger text-center">
+		<div class="header text-primary text-center">
 		  <h1> Get the weather for your location!</h1>
 		</div>
 		<div class="fetch text-center">
-		  (results in Celcius) <input id=unit name="unit" value="C" type="checkbox" disabled />
+		  (results in Celcius) <input id=unit name="unit" value="C" type="checkbox" />
 		  <input id="zip" type="text" placeholder="ZIP Code" /><br>
 		  <button id="fetch-btn" class="btn-primary fetch-btn">Get results</button>
 		</div>
