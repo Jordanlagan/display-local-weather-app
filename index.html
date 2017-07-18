@@ -1,12 +1,35 @@
-<div class="header text-danger text-center">
-  <h1> Get the weather for your location!</h1>
-</div>
-<div class="fetch text-center">
-  (results in Celcius) <input id=unit name="unit" value="C" type="checkbox" disabled />
-  <input id="zip" type="text" placeholder="ZIP Code" /><br>
-  <button id="fetch-btn" class="btn-primary fetch-btn">Get results</button>
-</div>
-<div class="footer">
-  <p class="text-center text-warning">
-    2017 Copyright Jordan Lagan</p>
-</div>
+<html>
+	<head>
+
+	<!-- included style sheet -->
+		<link rel="stylesheet" type="css" href="css/style.css">
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</head>
+	
+	<body>
+
+		<div class="header text-danger text-center">
+		  <h1> Get the weather for your location!</h1>
+		</div>
+		<div class="fetch text-center">
+		  (results in Celcius) <input id=unit name="unit" value="C" type="checkbox" disabled />
+		  <input id="zip" type="text" placeholder="ZIP Code" /><br>
+		  <button id="fetch-btn" class="btn-primary fetch-btn">Get results</button>
+		</div>
+		<div class="footer">
+		  <p class="text-center text-warning">
+		    2017 Copyright Jordan Lagan</p>
+		</div>
+
+		<script src="js/fetch-weather.js"></script>
+
+</body>
+</html>
